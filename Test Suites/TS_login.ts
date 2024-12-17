@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>dda39381-c4df-4a64-8ce7-1ac922b566f7</testSuiteGuid>
+   <testCaseLink>
+      <guid>9f8d1150-46d3-4c42-a389-775536d444bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>66cb82f2-a79c-4817-9763-68cfbff9dd77</id>
+         <masked>false</masked>
+         <name>password</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Facebook_Login</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>0c778bd7-4373-4328-a946-5a95c369e1ad</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data_login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0c778bd7-4373-4328-a946-5a95c369e1ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>invalid_email</value>
+         <variableId>cfdbb0c9-8411-4f6c-a3e1-b22df8d96969</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0c778bd7-4373-4328-a946-5a95c369e1ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>invalid_password</value>
+         <variableId>c8a8c146-9c70-442f-8b27-9e0cf787cd33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0c778bd7-4373-4328-a946-5a95c369e1ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>bfa96f44-b3f2-4144-bc6e-d0e9079f93a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0c778bd7-4373-4328-a946-5a95c369e1ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>66cb82f2-a79c-4817-9763-68cfbff9dd77</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
